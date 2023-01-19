@@ -22,13 +22,17 @@ ul {
   font-weight: 900;
 }
 
-#showcase {
+#showcase,
+#section-headline-2 {
   padding-top: 100px !important;
 }
 
-#section-hero-image {
-  background: url('/img/image-1.png');
-  height: 500px;
+#section-hero-image img {
   width: 100%;
+  max-height: 500px;
+}
+
+#footer {
+  height: 300px;
 }
 /*# sourceMappingURL=general.css.map */
